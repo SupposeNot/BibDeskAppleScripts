@@ -25,7 +25,7 @@ tell BibDesk
 	set theJSON to |items| of (message of theJSON)
 	
 	set foundSomething to 0
-	repeat with i from 1 to 5
+	repeat with i from 1 to 3
 		set theTitle to |title| of item i of theJSON
 		set theDOI to doi of item i of theJSON
 		--		set theDOI to replaceText("http://dx.doi.org/", "", theDOI)
